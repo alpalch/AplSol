@@ -1,0 +1,21 @@
+# Ignore bundler config
+/.bundle
+
+.DS_Store
+config/database.yml
+config/secrets.yml
+.idea
+config/application.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/log
+/public/assets
+/db/dumps
+.env
+coverage
+spec/reports/
+/public/uploads
+report.html
+rails_best_practices_output.html
