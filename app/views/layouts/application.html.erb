@@ -9,6 +9,7 @@
 <body>
   <header>
     <%= button_to 'log out', logout_path %>
+    <%= link_to 'update user', edit_user_path(current_user)  %>
   </header>
 
 <%= yield %>
