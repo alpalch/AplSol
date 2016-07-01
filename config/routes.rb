@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   resources :users
   resources :posts
 
-  root 'posts#index'
+
 
   devise_scope :user do
+    root 'devise/sessions#new'
     post 'logout', to: 'devise/sessions#destroy'
   end
 end
